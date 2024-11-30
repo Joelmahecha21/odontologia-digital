@@ -1,0 +1,139 @@
+/* Restablecimiento de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo y estilos generales del cuerpo */
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f9f3e5; /* Fondo suave beige */
+    color: #5a3d3d; /* Texto marrón oscuro */
+}
+
+/* Encabezado */
+.site-heading {
+    font-family: 'Lora', serif;
+    font-size: 2.5rem;
+    color: #4e2a0f; /* Marrón oscuro */
+    margin-top: 30px;
+    text-align: center;
+}
+
+.site-heading-lower {
+    font-size: 1.5rem;
+    color: #5a3d3d; /* Marrón intermedio */
+    font-weight: normal;
+}
+
+/* Estilos del formulario */
+form {
+    background-color: white;
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+form h4 {
+    color: #4e2a0f; /* Marrón oscuro para los encabezados */
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #d6c6b7; /* Borde gris suave */
+    background-color: #f9f3e5; /* Fondo suave beige */
+    color: #5a3d3d; /* Color de texto marrón */
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus {
+    outline: none;
+    border-color: #4e2a0f; /* Borde marrón oscuro en focus */
+    box-shadow: 0 0 5px rgba(78, 42, 15, 0.4);
+}
+
+/* Estilos para el botón de envío */
+button[type="submit"] {
+    background-color: #f4c542; /* Amarillo suave */
+    color: #4e2a0f; /* Marrón oscuro */
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #5a3d3d; /* Marrón oscuro al pasar el mouse */
+    color: white;
+}
+
+/* Estilos para el botón de consulta */
+a.btn-primary {
+    background-color: #f4c542; /* Amarillo suave */
+    color: #4e2a0f; /* Marrón oscuro */
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+a.btn-primary:hover {
+    background-color: #5a3d3d; /* Marrón oscuro al pasar el mouse */
+    color: white;
+}
+
+/* Estilo para el logo */
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #4e2a0f; /* Marrón oscuro */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .btn {
+    color: white;
+    border: 1px solid white;
+}
+
+footer .btn:hover {
+    background-color: #f4c542; /* Amarillo suave en hover */
+    border-color: #f4c542; /* Borde amarillo en hover */
+}
+
+footer .fab {
+    font-size: 18px;
+}
+
+/* Centrado de la consulta */
+.text-center {
+    text-align: center;
+}
+
+.container {
+    margin-top: 20px;
+}

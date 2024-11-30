@@ -1,0 +1,105 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F2E7; /* Fondo beige claro */
+    color: #5C4033; /* Texto café oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.login-container {
+    background-color: #FFF6E1; /* Fondo beige claro */
+    padding: 20px 30px;
+    border: 1px solid #E2D2B4; /* Borde beige */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Título */
+.login-container h2 {
+    color: #8B5E3C; /* Café oscuro */
+    margin-bottom: 20px;
+}
+
+/* Formularios */
+form {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #5C4033; /* Café oscuro */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #C08E5A; /* Café medio */
+    border-radius: 5px;
+    background-color: #F7F2E7; /* Beige claro */
+    color: #5C4033; /* Café oscuro */
+    font-size: 16px;
+}
+
+/* Botón */
+button {
+    background-color: #D6A34C; /* Amarillo dorado */
+    color: #FFF6E1; /* Texto beige */
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #C08E5A; /* Café medio */
+}
+
+/* Texto adicional */
+.terms {
+    font-size: 14px;
+    margin-top: 15px;
+    color: #5C4033; /* Café oscuro */
+}
+
+.terms a {
+    color: #D6A34C; /* Amarillo dorado */
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+.register {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #5C4033; /* Café oscuro */
+}
+
+.register a {
+    color: #8B5E3C; /* Café oscuro */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
