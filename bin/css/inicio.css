@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #5B4A42; /* Marrón oscuro */
+    color: #3D2B1F; /* Marrón más oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor del login */
+.login-container {
+    background-color: #F5E1C8; /* Beige */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+}
+
+/* Estilos para el título */
+h2 {
+    color: #3D2B1F; /* Marrón oscuro */
+    margin-bottom: 20px;
+}
+
+/* Estilos de etiquetas y campos */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #3D2B1F; /* Marrón oscuro */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #3D2B1F;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+
+/* Estilos del botón */
+button {
+    background-color: #D9A066; /* Mostaza */
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #C78B53;
+}
+
+/* Estilos para enlaces */
+.terms, .register {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.terms a, .register a {
+    color: #3D2B1F;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.terms a:hover, .register a:hover {
+    text-decoration: underline;
+}
+
+/* Ajuste del contenedor */
+.login-container {
+    background-color: #F5E1C8; /* Beige */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Ajuste de los campos de entrada */
+input {
+    width: 92%; /* Ajuste para que los inputs no sean tan grandes */
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #3D2B1F;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-sizing: border-box; /* Para que el padding no afecte el tamaño */
+}
+
+/* Ajuste del botón */
+button {
+    width: 100%; /* Asegura que el botón ocupe el mismo ancho que los inputs */
+    padding: 12px;
+    border-radius: 8px;
+}
+

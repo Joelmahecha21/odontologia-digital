@@ -1,0 +1,11 @@
+# Ignorar configuraciones de IDE
+.idea/
+.vs/
+.vscode/
+*.iml
+*.class
+
+# Ignorar archivos del sistema
+NTUSER.DAT
+Thumbs.db
+

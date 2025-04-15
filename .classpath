@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="Controlador/|Vista/|Modelo/" kind="src" path="ODONTOLOGIA DIGITAL"/>
+	<classpathentry kind="src" path="ODONTOLOGIA DIGITAL/Controlador"/>
+	<classpathentry kind="src" path="ODONTOLOGIA DIGITAL/Modelo"/>
+	<classpathentry kind="src" path="ODONTOLOGIA DIGITAL/Vista"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

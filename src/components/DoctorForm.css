@@ -1,0 +1,74 @@
+body {
+  background-color: #f2e7c9;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.doctor-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.doctor-header {
+  background-color: #8c6046;
+  color: #f2e7c9;
+  width: 100%;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.doctor-form {
+  background-color: #8c6046;
+  color: #f2e7c9;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.doctor-form input,
+.doctor-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 0.5rem 0 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2e7c9;
+  color: #4a2c2a;
+}
+
+.doctor-form button {
+  background-color: #d4a441;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #4a2c2a;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+.doctor-form button:hover {
+  background-color: #c18a2b;
+}
+
+.consulta-section {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.consulta-btn {
+  background-color: #d4a441;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #4a2c2a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.consulta-btn:hover {
+  background-color: #c18a2b;
+}
