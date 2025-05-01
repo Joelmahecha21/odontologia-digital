@@ -79,17 +79,17 @@
             $this->idusuarioFK=$usuFK;
         }
 
-        public function consultar_todos()
-        {
-            $filas=null;
-            $consulta=$this->db->prepare("SELECT * FROM cliente");
-            $consulta->execute();
+public function consultar_todos()
+    {
+        $filas = null;
+        $consulta = $this->pdo->prepare("SELECT * FROM cliente");
+        $consulta->execute();
 
-            while($resultado=$consulta->fetch()){
-                $filas[]=$resultado;
-            }
-
-            return $filas;
+        while ($resultado = $consulta->fetch()){
+            $filas[] = $resultado;
         }
+
+        return $filas;
     }
+}
 ?>

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+    
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Formulario de roles</title>
 <link rel="icon" type="image/x-icon" href="../Public/img/odo.jpg" />
 <link href="../Vista/css/formulario_empleado.css" rel="stylesheet" type="text/css">
+<header>
 
-  <header>
             <h1 class="site-heading text-center text-faded d-none d-lg-block">
                 <span class="site-heading-lower">Roles</span>
             </h1>
@@ -29,7 +29,6 @@
                            <div class="col-md-12 text-center ">
                               <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Ingresar</button>
                            </div>
-</div>
 
 <div class="row">
 

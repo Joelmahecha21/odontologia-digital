@@ -88,17 +88,17 @@
             $this->idRolFK=$rlFK;
         }
 
-        public function consultar_todos()
-{
-    $filas=null;
-    $consulta=$this->db->prepare("SELECT * FROM empleado");
-    $consulta->execute();
+public function consultar_todos()
+    {
+        $filas = null;
+        $consulta = $this->pdo->prepare("SELECT * FROM doctor");
+        $consulta->execute();
 
-    while($resultado=$consulta->fetch()){
-        $filas[]=$resultado;
+        while ($resultado = $consulta->fetch()){
+            $filas[] = $resultado;
+        }
+
+        return $filas;
     }
-
-    return $filas;
-}
 }
 ?>

@@ -60,17 +60,17 @@
             $this->idempleadoFK=$idempFK;
         }
 
-        public function consultar_todos()
-        {
-            $filas=null;
-            $consulta=$this->db->prepare("SELECT * FROM cita");
-            $consulta->execute();
+public function consultar_todos()
+    {
+        $filas = null;
+        $consulta = $this->pdo->prepare("SELECT * FROM cita");
+        $consulta->execute();
 
-            while($resultado=$consulta->fetch()){
-                $filas[]=$resultado;
-            }
-
-            return $filas;
+        while ($resultado = $consulta->fetch()){
+            $filas[] = $resultado;
         }
+
+        return $filas;
     }
+}
 ?>

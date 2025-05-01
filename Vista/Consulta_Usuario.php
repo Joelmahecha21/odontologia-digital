@@ -28,15 +28,13 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
             <div class="container">
-			<a class="navbar-brand" href="../Vista/pagina_inicio_sesion.html">
+			<a class="navbar-brand" href="../Vista/pagina_inicio_sesion.html"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="pagina_inicio_sesion.html">Home</a></li>
                     </ul>
                 </div>
-            </div>
-        </nav>
   <div class="container-fluid">
 	<!-- Tabla -->
 	<table class="table table-secondary">
@@ -75,8 +73,6 @@
 	</table>
 </div>	
 				
-		</div>
-	</div>
 	<footer class="footer text-faded text-center py-5">
             <div class="container"><p class="m-0 small"> © 2024 odontologia digital   &copy;  </p></div>
             <!-- Section: Social media -->

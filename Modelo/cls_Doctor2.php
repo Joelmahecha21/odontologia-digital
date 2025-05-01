@@ -43,16 +43,16 @@ public function getestadoDoctor(){
 }
 
 public function consultar_todos()
-{
-    $filas=null;
-    $consulta=$this->db->prepare("SELECT * FROM doctor");
-    $consulta->execute();
+    {
+        $filas = null;
+        $consulta = $this->pdo->prepare("SELECT * FROM doctor");
+        $consulta->execute();
 
-    while($resultado=$consulta->fetch()){
-        $filas[]=$resultado;
+        while ($resultado = $consulta->fetch()){
+            $filas[] = $resultado;
+        }
+
+        return $filas;
     }
-
-    return $filas;
-}
 }
 ?>
