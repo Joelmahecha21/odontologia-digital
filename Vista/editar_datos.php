@@ -28,7 +28,7 @@
         ><br>
         <input type="submit" name="btnConsultarUsuairio" value="Consultar Datos" class="btn btn-primary">   
     </form>
-    <!--FORMULARIO DANDE SE MOSTRARAN LAS DATOS ASOCIADOS AL CODIGO DIGITADO -->
+    <!--FORMULARIO DONDE SE MOSTRARAN LAS DATOS ASOCIADOS AL CODIGO DIGITADO -->
     <form method="POST" action="#">
         <div class="form-group">
         <label>Nombre:</label>

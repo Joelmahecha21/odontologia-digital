@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,8 +32,6 @@
                               <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Ingresar</button>
                            </div>
                 
-                       
-                       
 <div class="container">   </div>
 
 <div class="row">   </div>
@@ -50,7 +47,5 @@
                     <div class="col-md-12 text-center ">
                     <a class="btn btn-primary" href="Consulta_Cita.php" role="button">Consultar</a>
                    </div>
-
-                   
     </body>
 </html>

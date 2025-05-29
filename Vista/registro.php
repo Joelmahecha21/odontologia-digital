@@ -31,7 +31,7 @@
         </div>
 
         <div class="login">
-            <p>¿Ya tienes cuenta? <a href="../Vista/inicio.html">Inicia sesión aquí</a></p>
+            <p>¿Ya tienes cuenta? <a href="../Vista/inicio.php">Inicia sesión aquí</a></p>
         </div>
     </div>
 </body>

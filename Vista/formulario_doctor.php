@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +6,6 @@
     <link rel="icon" type="image/x-icon" href="../Public/img/odo.jpg" />
     <link href="../Vista/css/formulario_doctor.css" rel="stylesheet" />
 </head>
-
-
     <body>
     <div class="container">
         <div class="row">
@@ -44,26 +41,18 @@
 </div>
 
 <div class="row">
-
     <div class="col-md-5 mx-auto">
         <div id="first">
             <div class="myform form ">
                 <div class="logo mb-3">
                     <div class="col-md-12 text-center">
                         <h2>Consulta Doctor</h2>
-
         </div>
-
     </div>
-
                     <div class="col-md-12 text-center ">
                     <a class="btn btn-primary" href="Consulta_Doctor.php" role="button">Consultar</a>
                    </div>
-
-                   
-
 </div>
 </div>        
 </div>
-
 </html>

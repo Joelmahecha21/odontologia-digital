@@ -27,15 +27,15 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
             <div class="container">
-                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="../Vista/home.php">Start Bootstrap</a>
+                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="../Vista/home.php">Odontologia Digital</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="menu_v2.html">Home</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="inicio.html">Sesion</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="Odontologia_Especializada.html">Odontologia Especializada</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="Armonización_Orofacial.html">Armonización Orofacial</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="Horarios.html">Horarios</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="menu_v2.php">Home</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="inicio.php">Sesion</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="Odontologia_Especializada.php">Odontologia Especializada</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="Armonización_Orofacial.php">Armonización Orofacial</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="Horarios.htmphpl">Horarios</a></li>
                     </ul>
                 </div>
             </div>
